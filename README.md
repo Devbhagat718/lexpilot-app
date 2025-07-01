@@ -49,18 +49,3 @@ lexpilot_streamlit_app/
 ├── file_utils.py           # File handling utilities
 ├── qa_utils.py             # Question answering utilities
 ├── summarizer_utils.py     # Summarization utilities
-
-## How It Works
-
-1. **Upload a Document**  
-   Users can upload a document or input text manually.
-
-2. **Ask Questions**  
-   - Input a question related to the document.  
-   - The app uses the **DistilBERT** model to analyze the context and provide an accurate answer.
-
-3. **Generate Summaries**  
-   - Choose the desired length of the summary.  
-   - The app uses the **DistilBART** model to generate a concise summary of the document.
-
----
